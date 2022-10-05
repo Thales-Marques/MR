@@ -256,6 +256,7 @@ main .borda{
     border-image-slice: 1;
 
     min-height: 300px;
+    margin: 45px 0px;
 }
 
 main section h2{
