@@ -776,12 +776,22 @@ h4{
         width: 500px;
     }
 
-    .item h4{
-        font-size: 19px;
+    .border{
+        height: 100px;
     }
 
-    .item p{
-        font-size: 10px;
+    .item h4{
+        font-size: 22px;
+    }
+
+    .container .item p{
+        text-align: justify;
+        font-size: 19px;
+        padding: 0;
+        max-width: 80%;
+        min-width: none;
+        width: 100%;
+        margin: 10px 0px 0px 40px;
     }
 
 }
