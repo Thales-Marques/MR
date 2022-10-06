@@ -14,11 +14,7 @@ body{
     background: linear-gradient(135deg, #0f0129, #01074b, #014a6b);
     background-attachment: fixed;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 99.8%;
-    flex-direction: column;
 }
 
 /*Menu*/
@@ -214,14 +210,37 @@ body{
 
 .previa{
     width: 80%;
-    margin-top: 10px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    position: relative;
 }
 
-#previa p{
+#previa .p1, .p2, .p3, .p4{
     font-size: 23px;
     padding: 9px 5px;
-    margin: 0px;
+    margin: 5px;
     text-align: justify;
+}
+
+#previa .p1{
+    position: relative;
+    left: center;
+}
+
+#previa .p2{
+    position: relative;
+    left: center;
+}
+
+#previa .p3{
+    position: relative;
+    left: center;
+
+}
+
+#previa .p4{
+    position: relative;
+    left: center;
 }
 
 mark{
@@ -265,11 +284,6 @@ strong{
 
 .container{
     padding: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .container .item .border{
@@ -390,6 +404,7 @@ a:hover i::after
 }
 
 .item{
+    margin: 0 auto 0 auto;
     height: 660px;
     width: 1200px;
 }
@@ -743,4 +758,30 @@ h4{
 
 .img_msmarvel{
     background-image: url('img/imgfundo/msmarvel.jpg');
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width:767px){
+
+    #previa p{
+        font-family: 12px;
+    }
+
+    .fixado, .img-divisao, .card, .link-assisti{
+        display: none;
+    }
+
+    .item{
+        width: 500px;
+    }
+
+    .item h4{
+        font-size: 19px;
+    }
+
+    .item p{
+        font-size: 10px;
+    }
+
 }
