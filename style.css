@@ -764,20 +764,31 @@ h4{
 
 @media screen and (max-width:767px){
 
-    #previa p{
-        font-family: 12px;
+    .fixado{
+        width: 100vw;
     }
 
-    .fixado, .img-divisao, .card, .link-assisti{
+    .fixado h1{
+        font-size: 20px;
+        margin: 20px 0px 0px 10px;
+    }
+
+    #previa p{
+        font-size: 19px;
+    }
+
+    .card, .img-divisao, .link-assisti{
         display: none;
     }
 
     .item{
-        width: 500px;
+        width: 390px;
+        height: 400px;
     }
 
-    .border{
-        height: 100px;
+    .container .item .border{
+        height: 320px;
+        width: auto;
     }
 
     .item h4{
