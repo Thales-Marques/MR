@@ -23,10 +23,9 @@
         width: 95%;
         height: 400px;
     }
-
+ 
     .container .item .border{
         height: 320px;
-        width: auto;
     }
 
     .item h4{
@@ -43,4 +42,36 @@
         margin: 10px 0px 0px 40px;
     }
 
+    /*Itens e border's com seus valores*/
+    .container .item-capitao{
+        height: 300px;
+    }    
+    .container .item .border-capitao{
+        height: 220px;
+    }
+
+    .container .item-carter{
+        height: 280px;
+    }
+    .container .item .border-carter{
+        height: 180px;
+    }
+
+    .container .item-capita{
+        height: 500px;
+    }
+    .container .item .border-capita{
+        height: 420px;
+    }
+
+    .container .item-ferro2{
+        height: 430px;
+    }
+    .container .item .border-ferro2{
+        height: 370px;
+    }
+
+    .container .item .border-thor{
+        height: 345px;
+    }
 }
