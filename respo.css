@@ -1,0 +1,46 @@
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width:767px){
+
+    .fixado{
+        width: 100vw;
+    }
+
+    .fixado h1{
+        font-size: 20px;
+        margin: 20px 0px 0px 10px;
+    }
+
+    #previa p, .p1, mark{
+        font-size: 19px;
+    }
+
+    .card, .img-divisao, .link-assisti{
+        display: none;
+    }
+
+    .item{
+        width: 95%;
+        height: 400px;
+    }
+
+    .container .item .border{
+        height: 320px;
+        width: auto;
+    }
+
+    .item h4{
+        font-size: 22px;
+    }
+
+    .container .item p{
+        text-align: justify;
+        font-size: 19px;
+        padding: 0;
+        max-width: 80%;
+        min-width: none;
+        width: 100%;
+        margin: 10px 0px 0px 40px;
+    }
+
+}
