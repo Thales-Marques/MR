@@ -49,6 +49,12 @@
     .container .item .border-capitao{
         height: 220px;
     }
+    .container .item-capitao2{
+        height: 490px;
+    }
+    .container .item .border-capitao2{
+        height: 413px;
+    }
 
     .container .item-carter{
         height: 280px;
@@ -70,8 +76,34 @@
     .container .item .border-ferro2{
         height: 370px;
     }
+    .container .item-ferro3{
+        height: 285px;
+    }
+    .container .item .border-ferro3{
+        height: 215px;
+    }
 
     .container .item .border-thor{
         height: 345px;
+    }
+    .container .item-thor2{
+        height: 320px;
+    }
+    .container .item .border-thor2{
+        height: 235px;
+    }
+
+    .container .item-vingadores{
+        height: 423px;
+    }
+    .container .item .border-vingadores{
+        height: 365px;
+    }
+
+    .container .item-agentes{
+        height: 295px;
+    }
+    .container .item .border-agentes{
+        height: 170px;
     }
 }
