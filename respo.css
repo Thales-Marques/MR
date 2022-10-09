@@ -110,6 +110,12 @@
     .container .item .border-thor3{
         height: 390px;
     }
+    .container .item-thor4{
+        height: 320px;
+    }
+    .container .item .border-thor4{
+        height: 245px;
+    }
 
     /*VINGADORES*/
     .container .item-vingadores{
@@ -123,6 +129,18 @@
     }
     .container .item .border-vingadores2{
         height: 345px;
+    }
+    .container .item-vingadores3{
+        height: 335px;
+    }
+    .container .item .border-vingadores3{
+        height: 245px;
+    }
+    .container .item-vingadores4{
+        height: 360px;
+    }
+    .container .item .border-vingadores4{
+        height: 263px;
     }
 
     /*AGENTES*/
@@ -247,5 +265,23 @@
     }
     .container .item .border-justiceiro{
         height: 150px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    .img-divisao{
+        height: 295px;
+        width: 100vw;
+    }
+
+    .container .item p{
+        max-height: 485px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .img-divisao{
+        width: 98.8vw;
     }
 }
