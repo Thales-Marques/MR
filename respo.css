@@ -39,7 +39,7 @@
         max-width: 80%;
         min-width: none;
         width: 100%;
-        margin: 10px 0px 0px 40px;
+        margin: 10px 0px 0px 35.205px;
     }
 
     /*Itens e border's com seus valores*/
@@ -103,6 +103,12 @@
     }
     .container .item .border-thor2{
         height: 235px;
+    }
+    .container .item-thor3{
+        height: 450px;
+    }
+    .container .item .border-thor3{
+        height: 390px;
     }
 
     /*VINGADORES*/
@@ -172,6 +178,12 @@
     .container .item .border-formiga{
         height: 235px;
     }
+    .container .item-formiga2{
+        height: 440px;
+    }
+    .container .item .border-formiga2{
+        height: 350px;
+    }
 
     /*PUNHO*/
     .container .item-punho{
@@ -203,5 +215,37 @@
     }
     .container .item .border-viuva{
         height: 235px;
+    }
+
+    /*HOMEM ARANHA*/
+    .container .item-aranha{
+        height: 500px;
+    }
+    .container .item .border-aranha{
+        height: 415px;
+    }
+
+    /*DOUTOR ESTRENHA*/
+    .container .item-estranho{
+        height: 235px;
+    }
+    .container .item .border-estranho{
+        height: 175px;
+    }
+
+    /*PANTERA NEGRA*/
+    .container .item-pantera{
+        height: 290px;
+    }
+    .container .item .border-pantera{
+        height: 220px;
+    }
+
+    /*JUSTICEIRO*/
+    .container .item-justiceiro{
+        height: 210px;
+    }
+    .container .item .border-justiceiro{
+        height: 150px;
     }
 }
