@@ -317,8 +317,8 @@ strong{
 /*Link assisti*/
 
 .link-assisti{
-    position: relative;
-    left: 375.0235px;
+    position: absolute;
+    left: 35%;
     background: #fff; /*aqui*/
     color: #fff;
     text-decoration: none;
@@ -395,7 +395,7 @@ a:hover i::after
 
 .img-divisao{
     overflow: hidden;
-    height: 320px; width: 100%;
+    height: 320px; width: 98.8vw;
     background-color: white;
     background-attachment: fixed;
     background-position: center;
@@ -406,7 +406,7 @@ a:hover i::after
 .item{
     margin: 0 auto 0 auto;
     height: 660px;
-    width: 1200px;
+    width: 90vw;
 }
 
 h4{

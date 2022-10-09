@@ -57,6 +57,12 @@
     .container .item .border-capitao2{
         height: 413px;
     }
+    .container .item-capitao3{
+        height: 300px;
+    }
+    .container .item .border-capitao3{
+        height: 215px;
+    }
 
     /*AGENTE CARTER*/
     .container .item-carter{
@@ -164,6 +170,38 @@
         height: 300px;
     }
     .container .item .border-formiga{
+        height: 235px;
+    }
+
+    /*PUNHO*/
+    .container .item-punho{
+        height: 210px;
+    }
+    .container .item .border-punho{
+        height: 148px;
+    }
+
+    /*DEFENSORES*/
+    .container .item-defenders{
+        height: 180px;
+    }
+    .container .item .border-defenders{
+        height: 109px;
+    }
+
+    /*INUMANOS*/
+    .container .item-inumanos{
+        height: 190px;
+    }
+    .container .item .border-inumanos{
+        height: 108px;
+    }
+
+    /*VIUVA NEGRA*/
+    .container .item-viuva{
+        height: 310px;
+    }
+    .container .item .border-viuva{
         height: 235px;
     }
 }
