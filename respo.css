@@ -249,12 +249,15 @@
         height: 170px;
     }
 
-    /*DOUTOR ESTRENHA*/
+    /*DOUTOR ESTRENHO*/
     .container .item-estranho{
         height: 235px;
     }
     .container .item .border-estranho{
         height: 175px;
+    }
+    .container .item .border-estranho2{
+        height: 260px;
     }
 
     /*PANTERA NEGRA*/
@@ -333,6 +336,19 @@
     }
     .container .item .border-arqueiro{
         height: 130px;
+    }
+
+    /*CAVALEIRO DA LUA*/
+    .container .item-lua{
+        height: 260px;
+    }
+    .container .item .border-lua{
+        height: 170px
+    }
+
+    /*MS. MARVEL*/
+    .container .item .border-msmarvel{
+        height: 320px;
     }
 }
 
