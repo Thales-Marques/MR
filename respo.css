@@ -42,6 +42,30 @@
         margin: 10px 0px 0px 35.205px;
     }
 
+    /*MODIFIÇAÇÕES DAS OUTRAS PÁGINAS*/
+    .respon-intro{
+        font-size: 2.3em;
+        position: absolute;
+        top: 70px;
+    }
+
+    .main-de-series{
+        position: absolute;
+        top: 200px;
+    }
+    .main-de-series section h2{
+        font-size: 1.5em;
+    }
+    .main-de-series section article h3{
+        font-size: 1.3em;
+    }
+    .main-de-series section article p{
+        font-size: 1.2em;
+    }
+    .main-de-series .borda-series{
+        min-height: 190px;
+    }
+
     /*Itens e border's com seus valores*/
 
     /*CAPITÃO AMÉRICA*/
@@ -367,6 +391,18 @@
         position: absolute;
         left: 29%;
     }
+
+    /*MODIFICAÇÕES DAS OUTRAS PÁGINAS*/
+    .respon-intro{
+        font-size: 4.8em;
+        position: absolute;
+        top: 120px;
+    }
+    .main-de-series{
+        position: absolute;
+        top: 200px;
+    }
+    
 }
 
 @media screen and (min-width:1024px) {
