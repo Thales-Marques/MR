@@ -433,6 +433,39 @@
         position: absolute;
         top: 200px;
     }
+
+    .h2-de-relatar{
+        position: absolute;
+        font-size: 50px;
+        left: 23%;
+    }
+    .main-de-relatar section h3{
+        font-size: 39px;
+        position: relative;
+        left: 350px;
+        top: 30px;
+        margin: 5.8px;
+    }
+    .main-de-relatar section h4{
+        font-size: 29px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main-de-relatar p, .main-de-relatar q{
+        font-size: 23px;
+        position: relative;
+        top: 50px;
+    }
+    .name{
+        font-size: 29px;
+    }
+    .ano{
+        font-size: 25px;
+        position: relative;
+        bottom: -15px;
+        left: 385px;
+    }
     
 }
 
