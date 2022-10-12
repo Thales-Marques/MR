@@ -266,22 +266,51 @@
     .container .item .border-justiceiro{
         height: 150px;
     }
+
+    /*LOKI*/
+    .container .item-loki{
+        height: 220px;
+    }
+    .container .item .border-loki{
+        height: 150px;
+    }
+
+    /*WHAT*/
+    .container .item-what{
+        height: 210px;
+    }
+    .container .item .border-what{
+        height: 140px;
+    }
+
+    /*WANDAVISION*/
+    .container .item-wanda{
+        height: 215px;
+    }
+    .container .item .border-wanda{
+        height: 150px;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1024px){
     .img-divisao{
         height: 295px;
-        width: 100vw;
+        width: 100%;
     }
 
     .container .item p{
         max-height: 485px;
         overflow: scroll;
     }
+
+    .link-assisti{
+        position: absolute;
+        left: 29%;
+    }
 }
 
 @media screen and (min-width:1024px) {
     .img-divisao{
-        width: 98.8vw;
+        width: 100%;
     }
 }
