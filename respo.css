@@ -242,6 +242,12 @@
     .container .item .border-aranha{
         height: 415px;
     }
+    .container .item-aranha3{
+        height: 270px;
+    }
+    .container .item .border-aranha3{
+        height: 170px;
+    }
 
     /*DOUTOR ESTRENHA*/
     .container .item-estranho{
@@ -289,6 +295,44 @@
     }
     .container .item .border-wanda{
         height: 150px;
+    }
+
+
+    /*FALCÃO E O SOLDADO INVERNAL*/
+    .container .item-falcao{
+        height: 295px;
+    }
+    .container .item .border-falcao{
+        height: 195px;
+    }
+
+    /*SHANG-CHI E A LENDA DOS DEZ ANÉIS*/
+    .container .item .border-shang{
+        height: 280px;
+    }
+
+    /*SHE-HULK*/
+    .container .item-she{
+        height: 310px;
+    }
+    .container .item .border-she{
+        height: 235px;
+    }
+
+    /*ETERNOS*/
+    .container .item-eternos{
+        height: 250px;
+    }
+    .container .item .border-eternos{
+        height: 170px;
+    }
+
+    /*GAVIÃO ARQUEIRO*/
+    .container .item-arqueiro{
+        height: 210px;
+    }
+    .container .item .border-arqueiro{
+        height: 130px;
     }
 }
 
