@@ -49,23 +49,54 @@
         top: 70px;
     }
 
-    .main-de-series{
+    .main-de-series, .main-de-filmes{
         position: absolute;
         top: 200px;
     }
-    .main-de-series section h2{
+    .main-de-series section h2, .main-de-filmes section h2{
         font-size: 1.5em;
     }
-    .main-de-series section article h3{
+    .main-de-series section article h3, .main-de-filmes section article h3{
         font-size: 1.3em;
     }
-    .main-de-series section article p{
+    .main-de-series section article p, .main-de-filmes section article p{
         font-size: 1.2em;
     }
-    .main-de-series .borda-series{
+    .main-de-series .borda-series, .main-de-filmes .border-filmes{
         min-height: 190px;
     }
 
+    .h2-de-relatar{
+        position: absolute;
+        font-size: 25px;
+        left: 20%;
+    }
+    .main-de-relatar section h3{
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 155px;
+        margin: 5.8px;
+    }
+    .main-de-relatar section h4{
+        font-size: 21px;
+        position: relative;
+        top: 50px;
+    }
+
+    .main-de-relatar p, .main-de-relatar q{
+        font-size: 15px;
+        position: relative;
+        top: 50px;
+    }
+    .name{
+        font-size: 29px;
+    }
+    .ano{
+        position: relative;
+        bottom: -5px;
+        left: 175px;
+    }
     /*Itens e border's com seus valores*/
 
     /*CAPITÃO AMÉRICA*/
@@ -398,7 +429,7 @@
         position: absolute;
         top: 120px;
     }
-    .main-de-series{
+    .main-de-series, .main-de-filmes{
         position: absolute;
         top: 200px;
     }
