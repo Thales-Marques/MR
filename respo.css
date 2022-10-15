@@ -467,6 +467,10 @@
         left: 385px;
     }
     
+    /*Ajustes dos conteúdos*/
+    .container .item-capitao, .item-capitao2, .item-aranha, .item-shang, .item-aranha3, .item-estranho2{
+        height: 700px;
+    }
 }
 
 @media screen and (min-width:1024px) {
